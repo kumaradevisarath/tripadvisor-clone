@@ -5,32 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="navbar">
+        <div class="bar">
+            <i class="fa-solid fa-bars"></i>
+        </div>
         <h2>tripadvisor</h2>
         <ul>
-            <li>discover</li>
-            <li>trips</li>
-            <li>advisor</li>
-            <li>more</li>
+            <li class="box">discover</li>
+            <li class="underline">trips</li>
+            <li class="underline">advisor</li>
+            <li class="box">more</li>
         </ul>
         <button>Sign in</button>
     </div>
     <h1 class="title">Where to?</h1>
-    <div class="nav-two">
-       <ul>
-        <li>Search All</li>
-        <li>Hotels</li>
-        <li>Things to Do</li>
-        <li>Restaurants</li>
-        <li>Holiday Rentals</li>
-        </ul>
+
+    <div class="nav-links">
+        <div class="nav-item ">
+            <i class="fa-solid fa-house"></i>
+            <p class="active">search all</p>
+        </div>
+        <div class="nav-item">
+            <i class="fa-solid fa-hotel"></i>
+            <p>hotels</p>
+        </div>
+        <div class="nav-item">
+            <i class="fa-solid fa-boxes-stacked"></i>
+            <p> things to do</p>
+        </div>
+        <div class="nav-item">
+            <i class="fa-solid fa-utensils"></i>
+            <p>restaurants</p>
+        </div>
+        <div class="nav-item">
+            <i class="fa-solid fa-house-lock"></i>
+            <p>holiday rentals</p>
+        </div>
     </div>
     <div class="input-field">
-
+        <i class="fa fa-search"></i>
         <input type="text" placeholder="Places to go,things to do,hotels...">
         <button class="search-btn">search</button>
     </div>
@@ -48,30 +66,77 @@
         <p class="para">Book these experiences for a close-up look at kuching.</p>
         <div class="travel">
             <div class="travel-card">
+                <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
                 <img src="./image/t7.jpg" alt="">
                 <div class="travel-content">
                     <p class="para-1">borneo native odyssey: annah rais longhouse & bengoh waterfalls</p>
+                    <div class="rating">
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div class="rating-count">4</div>
+                    </div>
                     <p>from Rs 10k per adult</p>
                 </div>
             </div>
             <div class="travel-card">
+                <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
                 <img src="./image/t2.jpg" alt="">
                 <div class="travel-content">
                     <p class="para-1">kerala boat house</p>
+                    <div class="rating">
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div class="rating-count">8</div>
+                    </div>
                     <p>from Rs 5k per adult</p>
                 </div>
             </div>
             <div class="travel-card">
+                <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
                 <img src="./image/t3.jpg" alt="">
                 <div class="travel-content">
                     <p class="para-1">bako national park with sea</p>
+                    <div class="rating">
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div class="rating-count">1</div>
+                    </div>
                     <p>from Rs 3.5k per adult</p>
                 </div>
             </div>
             <div class="travel-card">
+                <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
                 <img src="./image/t5.jpg" alt="">
                 <div class="travel-content">
                     <p class="para-1">sarawak wildlife center tour</p>
+                    <div class="rating">
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div>🟢</div>
+                        <div class="rating-count">4</div>
+                    </div>
                     <p>from Rs 2k per adult</p>
                 </div>
             </div>
@@ -97,7 +162,6 @@
         </div>
     </div>
     <div class="caption-card">
-
         <img src="./image/caption.jpg" alt="">
         <div class="caption-content">
             <h3>Sydney's hidden hits</h3>
@@ -113,18 +177,30 @@
         <h2>More to explore</h2>
         <div class="explore-trip">
             <div class="explore-card">
+                <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
                 <img src="./image/e1.jpg" alt="">
                 <div class="expolre-content">
                     <p>On the record:A musician's guide to Sydney's top spots</p>
                 </div>
             </div>
             <div class="explore-card">
+                <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
                 <img src="./image/e2.jpg" alt="">
                 <div class="expolre-content">
                     <p>8 lesser-known spots for the best Sydney harbour views</p>
                 </div>
             </div>
             <div class="explore-card">
+                <div class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
                 <img src="./image/e3.jpg" alt="">
                 <div class="expolre-content">
                     <p>A guide to surry hills,Sydney:great foods and shops</p>
@@ -155,6 +231,9 @@
                 </div>
             </div>
             <div class="des-card">
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
                 <img src="./image/d4.jpg" alt="">
                 <div class="des-place">
                     <a href="#">dubai,united arab emirates</a>
