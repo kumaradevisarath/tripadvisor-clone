@@ -146,19 +146,6 @@ body {
     outline: none;
   
 }
-
-.search-icon {
-    position: relative;
-
-}
-
-.fa {
-    position: absolute;
-    left: 20px;
-    top: 25px;
-
-}
-
 .search-btn {
 
     width: 100px;
@@ -169,7 +156,7 @@ body {
     background-color: rgb(52, 224, 161);
     font-size: 16px;
     font-weight: 500;
-    right: 365px;
+    right:408px;
     font-family: 'Poppins', sans-serif;
     position: absolute;
     cursor: pointer;
